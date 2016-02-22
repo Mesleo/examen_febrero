@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+#formulario{
+    width: 90%;
+    margin: 5% 0 0 5%;
+    display: block;
+    border: 1px solid;
+    padding: 15px;
+}
+
+#formulario input[type=button]{
+    width: 25%;
+    height: 25px;
+    font-size: 1em;
+    background-color: rgba(21, 120, 8, 0.91);
+    border-radius: 5px;
+}
+
+#labels, #inputs{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#inputs{
+    width: 84%;
+}
+
+#labels{
+    width: 15%;
+}
+
+#labels label{
+    margin-bottom: 8px;
+    display: block;
+}
+
+#inputs input:not(.sexo){
+    display: inline-block;
+    margin-bottom: 7px;
+    width: 30%;
+}
+
+#condiciones, #div_enviar{
+    display: block;
+}
+
+span{
+    font-size: .8em;
+    color: red;
+    margin-left: 5px;
+}
+
+
+
+#lista, #muestra_usuario{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#lista_usuarios{
+    margin: 10px;
+    list-style: decimal;
+}

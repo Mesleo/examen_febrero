@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javier Benítez del Pozo</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+</head>
+<body>
+    <header><h1>Usuario</h1></header>
+    <div id="contenedor">
+        <main>
+            <form id="formulario" action="#">
+                <div id="labels">
+                    <label for="">Nombre: </label>
+                    <label for="">Apellidos: </label>
+                    <label for="">DNI: </label>
+                    <label for="sexo">Sexo: </label>
+                </div>
+                <div id="inputs">
+                    <input type="text" id="nombre" placeholder="Pepe"><span id="spanNombre"></span><br>
+                    <input type="text" id="apellidos" placeholder="De la torre"><span id="spanApellidos"></span><br>
+                    <input type="text" id="dni" placeholder="00000000X"><span id="spanDni"></span><br>
+                    <select name="sexo" id="sexo">
+                        <option value="Hombre" select>Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+                </div>
+                <div id="condiciones">
+                    <input type="checkbox" id="aceptarCondiciones"> Acepto las condiciones
+                     <span id="spanCondiciones"></span>
+                </div>
+                <div id="div_enviar">
+                    <input type="button" id="enviar" value="Enviar">
+                    <input type="button" id="limpiar" value="Limpiar">
+                </div>
+            </form>
+            <div id="muestra_usuario"></div>
+        </main>
+        <div id="lista">
+            <h3>Lista de usuarios</h3>
+            <ul id="lista_usuarios">
+            </ul>
+        </div>
+    </div>
+    <script src="js/usuario.js"></script>
+</body>
+</html>
