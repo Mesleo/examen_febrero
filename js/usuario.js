@@ -30,6 +30,8 @@
             usuario.crearCookies();
             usuario.mostrar();
             usuario.crearListItem();
+        }else{
+            muestraUsuario.innerHTML = '<h3>No se ha podido crear el usuario</h3>';
         }
     }
 
@@ -122,6 +124,7 @@
         spanDni.innerHTML = "";
         spanNombre.innerHTML = "";
         checkCondiciones.checked = false;
+        muestraUsuario.innerHTML = "";
         eliminarCookie();
     }
 
